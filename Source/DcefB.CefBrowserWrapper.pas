@@ -26,7 +26,7 @@ unit DcefB.CefBrowserWrapper;
 interface
 
 uses
-  Windows, Classes, Generics.Collections, Vcl.Graphics,
+  Windows, Classes, Generics.Collections, Graphics,
   DcefB.Cef3.Interfaces, DcefB.res, DcefB.Handler.Basic, DcefB.Events, DcefB.Utils;
 
 type

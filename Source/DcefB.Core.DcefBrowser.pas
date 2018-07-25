@@ -26,7 +26,7 @@ interface
 
 uses
   Windows, Classes, Controls, ComCtrls, Forms, ExtCtrls, Dialogs, StrUtils,
-  SysUtils, Messages, Math, Generics.Collections, Vcl.Graphics,
+  SysUtils, Messages, Math, Generics.Collections, Graphics,
 
   DcefB.Cef3.Types, DcefB.Cef3.Interfaces, DcefB.Cef3.Classes,
   DcefB.Cef3.Helper, DcefB.BaseObject, DcefB.Locker, DcefB.Settings,

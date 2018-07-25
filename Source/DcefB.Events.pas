@@ -26,7 +26,7 @@ unit DcefB.Events;
 interface
 
 uses
-  Classes, Vcl.Graphics,
+  Classes, Graphics,
   DcefB.Cef3.Interfaces, DcefB.Cef3.Types, DcefB.Cef3.Api;
 
 type

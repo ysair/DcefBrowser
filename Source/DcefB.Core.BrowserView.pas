@@ -877,7 +877,7 @@ begin
   favUrlList := TStrings(Pointer(LParam)^);
   for Index := 0 to favUrlList.Count - 1 do
   begin
-    if favUrlList[Index].IndexOf('.ico') > 0 then
+    if Pos('.ico', favUrlList[Index]) > 0 then
     begin
       favUrl := favUrlList[Index];
     end;
